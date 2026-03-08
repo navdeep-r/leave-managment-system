@@ -1,18 +1,18 @@
 <template>
-  <div class="min-h-screen bg-gray-950 flex">
+  <div class="min-h-screen bg-[#15202B] flex">
     <Sidebar :links="navLinks" :isOpen="sidebarOpen" @close="sidebarOpen = false" />
 
     <div class="flex-1 lg:ml-64 flex flex-col min-h-screen">
-      <header class="bg-gray-900/80 backdrop-blur-md border-b border-white/10 px-6 py-4 flex items-center justify-between sticky top-0 z-10">
-        <button @click="sidebarOpen = !sidebarOpen" class="lg:hidden text-gray-400 hover:text-white transition-colors">
+      <header class="bg-[#15202B]/90 backdrop-blur-md border-b border-[#38444D] px-6 py-4 flex items-center justify-between sticky top-0 z-10">
+        <button @click="sidebarOpen = !sidebarOpen" class="lg:hidden text-[#8899A6] hover:text-white transition-colors">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
         <h1 class="text-white font-semibold hidden lg:block">{{ pageTitle }}</h1>
-        <div class="flex items-center gap-2">
-          <span class="bg-emerald-600/20 text-emerald-300 text-xs px-3 py-1 rounded-full border border-emerald-500/30">Employer</span>
-        </div>
+        <span class="bg-[#1DA1F2]/10 text-[#1DA1F2] text-xs px-3 py-1 rounded-full border border-[#1DA1F2]/20 font-medium">
+          Employer
+        </span>
       </header>
 
       <main class="flex-1 p-6">
