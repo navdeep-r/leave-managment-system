@@ -16,10 +16,8 @@
     <!-- Brand -->
     <div class="px-6 py-5 border-b border-[#38444D]">
       <div class="flex items-center gap-3">
-        <div class="bg-[#1DA1F2]/10 rounded-xl p-2 border border-[#1DA1F2]/20">
-          <svg class="w-6 h-6 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
+        <div class="bg-[#1DA1F2]/10 rounded-full border border-[#1DA1F2]/20 overflow-hidden w-10 h-10 flex-shrink-0">
+          <img src="/src/assets/huskyvoiceai.png" alt="HuskyVoiceAI" class="w-full h-full object-cover" />
         </div>
         <div>
           <span class="text-white font-bold text-lg">Leave Manager</span>

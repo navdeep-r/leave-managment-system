@@ -12,9 +12,7 @@
           </router-link>
           <div class="flex justify-center mb-4">
             <div class="w-12 h-12 bg-[#1DA1F2]/10 rounded-full flex items-center justify-center border border-[#1DA1F2]/20">
-              <svg class="w-6 h-6 text-[#1DA1F2]" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
+              <img src="/src/assets/huskyvoiceai.png" alt="HuskyVoiceAI" class="w-full h-full object-cover rounded-full" />
             </div>
           </div>
           <h2 class="text-3xl font-bold text-white">Create your account</h2>
